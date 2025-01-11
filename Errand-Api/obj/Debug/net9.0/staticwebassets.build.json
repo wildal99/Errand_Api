@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "aZ3xJr2bIKwucKymQb0JL0miRZ6YOgbuqXxTF6edvHU=",
+  "Source": "Errand-Api",
+  "BasePath": "_content/Errand-Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

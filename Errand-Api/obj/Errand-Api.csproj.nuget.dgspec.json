@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gocam\\Documents\\Errand_Api\\Errand-Api\\Errand-Api.csproj": {}
+    "C:\\Users\\gocam\\Documents\\Repos\\Errand_Api\\Errand-Api\\Errand-Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gocam\\Documents\\Errand_Api\\Errand-Api\\Errand-Api.csproj": {
+    "C:\\Users\\gocam\\Documents\\Repos\\Errand_Api\\Errand-Api\\Errand-Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gocam\\Documents\\Errand_Api\\Errand-Api\\Errand-Api.csproj",
+        "projectUniqueName": "C:\\Users\\gocam\\Documents\\Repos\\Errand_Api\\Errand-Api\\Errand-Api.csproj",
         "projectName": "Errand-Api",
-        "projectPath": "C:\\Users\\gocam\\Documents\\Errand_Api\\Errand-Api\\Errand-Api.csproj",
+        "projectPath": "C:\\Users\\gocam\\Documents\\Repos\\Errand_Api\\Errand-Api\\Errand-Api.csproj",
         "packagesPath": "C:\\Users\\gocam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gocam\\Documents\\Errand_Api\\Errand-Api\\obj\\",
+        "outputPath": "C:\\Users\\gocam\\Documents\\Repos\\Errand_Api\\Errand-Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gocam\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,6 +51,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[14.2.0, )"
             }
           },
           "imports": [
