@@ -32,6 +32,15 @@ app.MapGet("/getdestlist{id}", async (int id, RoutingDb db) =>
             ? Results.Ok(destinationsList)
             : Results.NotFound());
 
+//test getting directions from maps api between two locations
+/*
+app.MapGet("directionsBetween/{loc1}/{loc2}",async (string loc1, string loc2) =>{
+    response = await 
+}
+
+)
+*/
+
 //enable swagger
 if(app.Environment.IsDevelopment()){
     app.UseOpenApi();
@@ -44,7 +53,6 @@ if(app.Environment.IsDevelopment()){
     });
 }
 
-
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Routing API");
 
 app.Run();

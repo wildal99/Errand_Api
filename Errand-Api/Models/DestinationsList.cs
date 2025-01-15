@@ -8,7 +8,7 @@ namespace Errand_Api.Models
     public class DestinationsList
     {
         public int Id { get; set; }
-        public String Origin { get; set; }
+        public String [] Origin { get; set; }
         public String [] Destinations {get; set;}
     }
 }

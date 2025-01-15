@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Maps.Routing.V2" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.0" />
     <PackageReference Include="NSwag.AspNetCore" Version="14.2.0" />
